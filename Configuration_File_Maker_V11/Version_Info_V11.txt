@@ -1,0 +1,66 @@
+Configuration File Maker v11.0.0
+Written using Matlab and GUIDE v2.5 09-May-2016 15:04:10
+The code itself is Free to use and distribute
+James Lubell
+
+
+
+
+
+Version 11 - Major Overhaul
+- set Ref for 1:32 (0:31) to Ref 1 - 1, set Ref for 33:64 (31:63) to Ref 2 - 1, set Ref for 65:96 (0:31) to Ref 3 - 1 etc.
+- Minimizes Research Window and load CSG 
+- Changed necessary file to load to only 1 file
+
+
+Version 10
+- Change file  to be loaded in Pegausu to CSC (Research File)
+- General Bug fixes
+
+
+Version 9
+- Changed AllDone Message to something more appropriate
+
+
+Version 8
+-Included all done message for files
+-Made Blue Navy Red and Magenta at the Top
+-Changed Research Background to gray
+
+Version 7.1
+-Fixed save location to make patient folder
+-Fixed Colors with CSG files
+
+Version 7
+- General fixes: color names, and channel naming warnings.
+- Repackaged app
+- HardCoded Configuration Folder path
+
+
+Version 6
+-Changed the interleave option so that sampling rate can be take down as far as 2000 Hz
+
+
+Version 5
+-Changed output files Names from CSC and CSG to Research and Clinical (Respectively)
+-Added Window Background Color options
+-Changed "Build" button - only enabled after pressing Calculate
+-Fixed Mulitple Window Problems
+
+Version 4
+-Changed Window Names from CSC and CSG to Research and Clinical (Respectively)
+-fixed color options to included "" in config files
+
+
+Version 3
+-Included Author Information
+-Small bug fixes
+-Enhanced Color options for Electrode Channels
+
+
+Version 2
+- Added Color options for Electrode Channels
+
+Version 1
+- Everything
+

@@ -1,0 +1,140 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="102080523" file="F:\Atlas\Atlas_Configuration_Maker\Configuration_File_Maker_V9\Atlas Configuration File Maker.prj" location="F:\Atlas\Atlas_Configuration_Maker\Configuration_File_Maker_V9" name="Atlas Configuration File Maker" target="target.mlapps" target-name="Package App">
+    <param.appname>Atlas Configuration File Maker</param.appname>
+    <param.authnamewatermark>James Lubell</param.authnamewatermark>
+    <param.email>jameslubell@berkeley.edu</param.email>
+    <param.company>UiO</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Configuration File Builder for Atlas</param.summary>
+    <param.description>Configuration File Maker
+Written using Matlab and GUIDE v2.5 09-May-2016 15:04:10
+The code itself is Free to use and distribute
+James Lubell
+
+
+
+Version 9
+- Changed AllDone Message to something more appropriate
+
+Version 8
+-Included all done message for files
+-Made Blue Navy Red and Magenta at the Top
+-Changed Research Background to gray
+
+Version 7.1
+-Fixed save location to make patient folder
+-Fixed Colors with CSG files
+
+Version 7
+- General fixes: color names, and channel naming warnings.
+- Repackaged app
+- HardCoded Configuration Folder path
+
+
+Version 6
+-Changed the interleave option so that sampling rate can be take down as far as 2000 Hz
+
+
+Version 5
+-Changed output files Names from CSC and CSG to Research and Clinical (Respectively)
+-Added Window Background Color options
+-Changed "Build" button - only enabled after pressing Calculate
+-Fixed Mulitple Window Problems
+
+Version 4
+-Changed Window Names from CSC and CSG to Research and Clinical (Respectively)
+-fixed color options to included "" in config files
+
+
+Version 3
+-Included Author Information
+-Small bug fixes
+-Enhanced Color options for Electrode Channels
+
+
+Version 2
+- Added Color options for Electrode Channels
+
+Version 1
+- Everything</param.description>
+    <param.screenshot>F:\Atlas\Atlas_Configuration_Maker\App\screenShot.png</param.screenshot>
+    <param.version>9.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\Atlas Configuration File Maker.mlappinstall</param.output>
+    <param.guid>857ae075-ec7d-4180-bc17-49c706adfb0d</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Configuration_File_Maker.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Configuration_File_Maker.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="F:\Atlas\Atlas_Configuration_Maker\Configuration_File_Maker_V9" name="Atlas Configuration File Maker.mlappinstall" optional="false">F:\Atlas\Atlas_Configuration_Maker\Configuration_File_Maker_V9\Atlas Configuration File Maker.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MatLab\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
